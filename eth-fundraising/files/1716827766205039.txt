@@ -1,0 +1,18 @@
+lsof
+fuser
+sort
+last
+lastlog
+uniq
+fallocate
+fping
+dhclient -v
+
+
+ping -t
+tracert
+
+show databases(); 查看当前库
+show create databases db1； 查看创建库语句
+desc teacher  描述表，即看表信息
+edit

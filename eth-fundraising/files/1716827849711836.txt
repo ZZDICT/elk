@@ -1,0 +1,43 @@
+!命令前缀，自动匹配上一个命令
+ctrl + r，搜索历史命令
+ctrl + a | e，光标移动到命令开始或结束
+ctrl + ← | →，左右跳单词
+ctrl + l 或 clear命令 清屏
+uname
+yum clean all   清楚所有缓存
+yum makecache   加载缓存
+yum repolist    显示当前系统中所有的yum源仓库
+hostnamectl set-hostname server0   修改主机名为server0
+tail -f wget-log              tail命令可以监控后台下载进度
+netstat -anp | grep 端口号/    查看指定端口被占用情况
+ss -tlnp 列出系统上所有正在监听的 TCP 端口，并显示它们所对应的进程信息
+rpm -qa  显示安装的所有包 配合管道符与grep过滤
+du -sh 路径  用于查看某个文件或文件夹的大小，*表示所有
+uptime 查看cpu负载，相同得还有w ，top
+esc + . 可以弹出上一个命令的尾部那个字段
+yum -qa 查看安装的包
+stat 文件名   查看文件的详细属性信息
+！ 取反 在find中与-not的用法一致
+bg
+fg 将后台进程拿到前台执行
+env 回车 即可看到环境变量
+set 查看所有变量
+jobs 查看任务
+pgrep pidof 都是后面加服务名查看其pid
+/dev/null   /dev/zero
+set -e 可以用于在命令失败时停止脚本
+在vim命令尾行模式里  ：set paste 格式化粘贴
+nohub 关闭终端但不会中止进程
+lscpu
+
+/			r-xr-xr-x   555
+/etc			rwxr-xr-x   755
+/var			rwxr-xr-x   755
+/tmp			rwxrwxrwt   1777
+/home/robin		rwx------   700
+/root			r-xr-x---   550
+/etc/passwd		rw-r--r--   644 
+/etc/shadow		---------   000
+
+
+
