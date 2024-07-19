@@ -105,8 +105,6 @@ while true; do
 		    exit 
 		    ;;
         *)
-		
-		
 			tput bold
 			tput setaf 5
 			tput blink
