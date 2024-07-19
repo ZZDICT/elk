@@ -90,7 +90,7 @@ while true; do
     tput smul
     tput setaf 3
     tput setab 0
-    read -p "请选择操作：$(tput setaf 6) 1.打包镜像 $(tput setaf 4)2.导入镜像：" select
+    read -p "请选择操作：$(tput setaf 6) 1.打包镜像 $(tput setaf 4)2.导入镜像 $(tput setaf 2)q.退出：" select
 	tput sgr0
     case "$select" in
         1)
@@ -101,7 +101,12 @@ while true; do
             load_image
             break
             ;;
+		q)
+		    exit 
+		    ;;
         *)
+		
+		
 			tput bold
 			tput setaf 5
 			tput blink
